@@ -29,7 +29,7 @@ collections:
     pages:
         output: true
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
