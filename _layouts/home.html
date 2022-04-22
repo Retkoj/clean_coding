@@ -3,22 +3,19 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
 
   {{ content }}
 
   {%- if site.pages.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
+    <h3 class="post-list-heading">{{ page.list_title | default: "" }}</h3>
     <ul class="post-list">
       {%- for page in site.pages -%}
       <li>
-        <h3>
+        <h4>
           <a class="post-link" href="{{ page.url | relative_url }}">
             {{ page.title | escape }}
           </a>
-        </h3>
+        </h4>
         {%- if site.show_excerpts -%}
           {{ page.excerpt }}
         {%- endif -%}
