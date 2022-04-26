@@ -4,11 +4,22 @@ list_title: Codeerconventies per programmeertaal
 ---
 
 # Wat zijn codeer conventies?
-Codeer conventies zijn afspraken die gemaakt worden bij het schrijven van code. Denk hierbij bijvoorbeeld aan 
-stijlafspraken, zoals de 
-comments die je toevoegt, indentatie en de benaming van variabelen, maar ook aan het herbruikbaar maken en testen van code.
+Codeer conventies zijn afspraken en regels over het schrijven van code. Denk hierbij aan 
+stijlafspraken, zoals de comments die je toevoegt, indentatie en de benaming van variabelen, maar ook aan het 
+herbruikbaar maken en testen van code.  
 
-# Waarom codeer stijlconventies?
+Voor veel programmeertalen bestaan er codeerconventie standaarden, zoals [pep8](https://peps.python.org/pep-0008/) 
+voor Python, [Tidyverse](https://style.tidyverse.org/) voor R, en de 
+[SQL Style Guide](https://www.sqlstyle.guide/) van Simon Holywell. Daarnaast zijn er al veel artikelen geschreven
+over het gebruik van codeerconventies en zullen organisaties zelf ook afspraken hebben. 
+
+Dit document biedt een overzicht van codeer stijlconventies en andere best practices voor de meest gebruikte programmeertalen 
+in Data Science: Python, R, en SQL. Hierbij wordt gebruik gemaakt van materiaal dat openbaar beschikbaar is – zoals 
+bovengenoemde styleguides – en van praktijkervaringen binnen de overheid. 
+Organisaties kunnen dit document gebruiken als beginpunt of leidraad voor hun eigen afspraken over codeerstandaarden.
+
+
+# Waarom codeer conventies?
 
 Codeer stijlconventies verbeteren de leesbaarheid van code en maken het daarmee makkelijker om:  
 - peer review uit te voeren  
