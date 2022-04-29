@@ -32,7 +32,7 @@ packages te gebruiken, zowel lokaal als in een Git pipeline.
 # Tidyverse
 
 De meest gebruikte styleguide voor R is de Tydiverse style guide 
-([klik hier voor de volledige guide][tidyverse-styleguide]{:target="\_blank"}). 
+(<ins>[klik hier voor de volledige guide][tidyverse-styleguide]{:target="\_blank"}</ins>). 
 
 Zoals de ontwikkelaars van Tidyverse zelf al aangeven, is Tidyverse niet de absolute waarheid of een verplichting 
 waaraan elke programmeur moet voldoen:  
@@ -149,7 +149,7 @@ fouten leiden.
 
 # Geautomatiseerd formatteren en controleren
 
-[Styler][styler-library] en [Lintr][lintr-library] zijn twee packages die het makkelijker maken om aan de Tidyverse 
+<ins>[Styler][styler-library]</ins> en <ins>[Lintr][lintr-library]</ins> zijn twee packages die het makkelijker maken om aan de Tidyverse 
 styleguide te voldoen. Styler biedt zowel een plugin voor RStudio als een command line interface waarmee je je 
 scripts kan formatteren in lijn met de Tidyverse styleguide. Lintr biedt een check op je code om te zien of
 deze voldoet aan de styleguide, of er syntaxerrors zijn, en of er sematische problemen zijn.
