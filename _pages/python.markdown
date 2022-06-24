@@ -131,6 +131,28 @@ hypotenuse = sqrt ( opposite_side ** 2 + adjacent_side ** 2 )
 - Gebruik 1 witregel tussen functies binnen classes
 - Gebruik witregels binnen functies met mate en alleen om logische blokken aan te geven
 
+{% highlight python %}
+# Goed
+opposite_side = 3
+adjacent_side = 5
+hypotenuse = sqrt(opposite_side**2 + adjacent_side**2)
+
+error_margin = 0.05
+answer = 42 * error_margin
+
+# Fout
+opposite_side = 3
+
+adjacent_side = 5
+
+
+hypotenuse = sqrt(opposite_side**2 + adjacent_side**2)
+
+error_margin = 0.05
+
+answer = 42 * error_margin
+
+{% endhighlight %}   
 
 # Imports
 

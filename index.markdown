@@ -41,6 +41,7 @@ def func(n):
         i+=1
 {% endhighlight %}
 
+
 {% highlight python %}
 def print_fibonacci_sequence(n_terms: int):
     """

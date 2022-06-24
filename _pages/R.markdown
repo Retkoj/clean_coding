@@ -6,6 +6,8 @@ date:   2022-04-28
 [tidyverse-styleguide]: https://style.tidyverse.org/
 [styler-library]: https://styler.r-lib.org/
 [lintr-library]: https://github.com/r-lib/lintr
+[r-best-practices]: https://waterdata.usgs.gov/blog/intro-best-practices/
+[r-workflow-vs-script]: https://www.tidyverse.org/blog/2017/12/workflow-vs-script/
 
 # Inhoud  
 - [Inleiding](#inleiding)  
@@ -26,7 +28,9 @@ date:   2022-04-28
 Deze pagina neemt als basis de Tidyverse styleguide voor R en zal de meest gebruikte practices, zoals naamgeving, 
 en een aantal mogelijke uitzonderingen langsgaan. Voor Tydiverse, maar ook voor custom styleguides, zijn automatische
 checks mogelijk, bijvoorbeeld d.m.v. [Styler][styler-library] en [Lintr][lintr-library]. Het is aan te raden dergelijke 
-packages te gebruiken, zowel lokaal als in een Git pipeline.
+packages te gebruiken, zowel lokaal als in een Git pipeline.  
+Aanvullend kan gekeken worden naar deze blogs: [Beyond Basic R - Introduction and Best Practices][r-best-practices], 
+[Project-oriented workflow][r-workflow-vs-script]
 
 
 # Tidyverse
